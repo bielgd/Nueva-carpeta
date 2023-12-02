@@ -1,0 +1,31 @@
+.menus{
+    display: flex;
+    flex-flow: wrap;
+    background-color: white;
+}
+
+.menu{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.producto{
+    height: 100px;
+    width: 250px;
+    margin: 5px;
+}
+
+.productos{
+    display: flex;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 40px;
+}
