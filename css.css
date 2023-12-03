@@ -1,24 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
 .menus{
     display: flex;
     flex-flow: wrap;
     background-color: white;
+    justify-content: center;
 }
 
 .menu{
     width: 200px;
     display: flex;
     flex-direction: row;
+    
 
 }
 
 .producto{
     height: 100px;
     width: 250px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .productos{
     display: flex;
+    flex-basis: auto;
+    
     
 }
 
@@ -28,4 +37,29 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     width: 250px;
     height: 40px;
+}
+
+.URL{
+    text-decoration: none;
+}
+
+.formulario{
+    display: flex;
+    background-color: aquamarine;
+    height: 550px;
+    width: 600px;
+    justify-content: center;
+}
+
+.contenedorform{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    background-color: bisque;
+    width: 250px;
+    height: 70px;   
+    color: black;
+    
 }
